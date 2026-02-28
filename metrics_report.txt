@@ -1,0 +1,20 @@
+RED OR RIPE - MODEL PERFORMANCE METRICS
+======================================================================
+
+PRIMARY METRIC: ACCURACY = 95.44%
+
+CONFUSION MATRIX:
+[[102   2   0   2]
+ [ 11 211   0   0]
+ [  0   8 204   8]
+ [  0   0   2 174]]
+
+PER-CLASS METRICS:
+Damaged: Precision=90.27%, Recall=96.23%, F1=93.15%
+Old: Precision=95.48%, Recall=95.05%, F1=95.26%
+Ripe: Precision=99.03%, Recall=92.73%, F1=95.77%
+Unripe: Precision=94.57%, Recall=98.86%, F1=96.67%
+
+Macro Avg Precision: 94.83%
+Macro Avg Recall: 95.72%
+Macro Avg F1-Score: 95.21%

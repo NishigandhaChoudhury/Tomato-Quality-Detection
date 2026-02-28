@@ -1,0 +1,21 @@
+# Datasets
+dataset/
+*.jpg
+*.png
+*.jpeg
+
+# Models
+models/
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Results
+results/
+*.png
