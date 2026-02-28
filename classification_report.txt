@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+     Damaged     0.9027    0.9623    0.9315       106
+         Old     0.9548    0.9505    0.9526       222
+        Ripe     0.9903    0.9273    0.9577       220
+      Unripe     0.9457    0.9886    0.9667       176
+
+    accuracy                         0.9544       724
+   macro avg     0.9483    0.9572    0.9521       724
+weighted avg     0.9557    0.9544    0.9545       724
