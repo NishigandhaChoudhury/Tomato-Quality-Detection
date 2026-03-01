@@ -30,7 +30,7 @@ NUM_CLASSES = 4         # Damaged, Old, Ripe, Unripe
 # ============================================
 # MODEL PATHS
 # ============================================
-MODEL_PATH = os.path.join(BASE_DIR, 'tomato_model.keras')
+MODEL_PATH = os.path.join(BASE_DIR, 'tomato_model_compat.h5')
 MODEL_KERAS_PATH = os.path.join(MODELS_DIR, 'tomato_model.keras')
 CLASS_NAMES_PATH = os.path.join(BASE_DIR, 'class_names.json')
 
@@ -95,4 +95,5 @@ print(f"📂 Validation data: {VAL_DIR}")
 print(f"📂 Models directory: {MODELS_DIR}")
 
 print(f"📂 Results directory: {RESULTS_DIR}")
+
 
