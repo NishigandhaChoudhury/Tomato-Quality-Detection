@@ -14,8 +14,8 @@ app = Flask(__name__)
 
 # Load model
 print("Loading model...")
-MODEL_PATH = os.path.join(os.path.dirname(__file__), 'tomato_model.keras')
-CLASS_NAMES_PATH = os.path.join(os.path.dirname(__file__), 'class_names.json')
+MODEL_PATH = "models/tomato_model.keras"
+CLASS_NAMES_PATH = "models/class_names.json"
 
 model = tf.keras.models.load_model(MODEL_PATH, compile=False)
 print("✅ Model loaded!")
