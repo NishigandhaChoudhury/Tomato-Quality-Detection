@@ -41,7 +41,7 @@ def predict(image):
         }
         
         result = f"{icons.get(predicted_class, '🍅')} **{predicted_class}**\n\n{messages.get(predicted_class, '')}"
-        details = f"**Quality:** {predicted_class}\n**Damage:** {damage:.1f}%\n**Confidence:** {confidence:.1f}%"
+        details = f"Quality: {predicted_class}\nDamage: {damage:.1f}%"
         
         return result, details, damage
     except Exception as e:
@@ -69,8 +69,6 @@ with gr.Blocks(title="🍅 Red or Ripe") as demo:
     )
     
     gr.Markdown("---")
-    gr.Markdown("**Team:** Nishigandha, Anika, Vaishnavi, Ashwini | **Mentor:** Dr. Gokul Rajan V | **VIT Vellore**")
-    gr.Markdown("**Model:** MobileNetV2 with Transfer Learning | **Dataset:** 7,224 images")
 
 # Launch the app
 demo.launch()
