@@ -22,37 +22,4 @@ Nishigandha Choudhury, Anika Ramya Shetty, Vaishnavi K V, Ashwini
 Mentor: Dr. Gokul Rajan V  
 Alliance University, Bengaluru
 
-## Usage
-```bash
-pip install -r requirements.txt
-python app_simple.py
-```
-Open http://localhost:5000
-```
-
-### **3. .gitignore** (IMPORTANT!)
-
-Create this file to prevent uploading large folders:
-```
-# Datasets
-dataset/
-*.jpg
-*.png
-*.jpeg
-
-# Models
-models/
-*.h5
-*.keras
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.venv/
-venv/
-
-# Results
-results/
-```
 
