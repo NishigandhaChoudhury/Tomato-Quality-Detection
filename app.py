@@ -22,7 +22,7 @@ def predict(image):
     
     try:
         img = Image.fromarray(image).convert('RGB')
-        img = img.resize((224, 224))
+        img = img.resize((256, 256))
         img_array = np.array(img) / 255.0
         img_array = np.expand_dims(img_array, 0)
         
