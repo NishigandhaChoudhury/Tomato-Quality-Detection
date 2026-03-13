@@ -21,7 +21,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 # ============================================
 # MODEL HYPERPARAMETERS
 # ============================================
-IMG_SIZE = 224          # MobileNetV2 requires 224x224
+IMG_SIZE = 256          
 BATCH_SIZE = 32         # Images per batch
 EPOCHS = 20             # Training iterations
 LEARNING_RATE = 0.001   # Adam optimizer learning rate
