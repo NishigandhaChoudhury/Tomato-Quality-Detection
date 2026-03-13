@@ -188,7 +188,7 @@ def predict():
     try:
         file = request.files['image']
         img = Image.open(io.BytesIO(file.read())).convert('RGB')
-        img_resized = img.resize((224, 224))
+        img_resized = img.resize((256, 256))
         img_array = np.array(img_resized) / 255.0
         img_array = np.expand_dims(img_array, 0)
         
